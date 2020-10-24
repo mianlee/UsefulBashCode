@@ -35,3 +35,29 @@ mkdir -p /folder/subfolder/ && cd /folder/subfolder/
 
 
 ```
+
+
+```
+#($id) 是用来给指定文件分类的
+
+cat config 
+apple red round
+pear blue square
+peach green triangle
+
+
+cat config | while read id
+
+do
+arr=($id)
+fg1=${arr[0]}
+fg2=${arr[1]}
+fg3=${arr[2]} 
+echo $fg1
+done
+
+#result
+apple
+pear
+peach
+```
