@@ -25,3 +25,13 @@ find /folder/ -name *gz | xargs ls -la
 mkdir -p /folder/subfolder/ && cd /folder/subfolder/
 
 ```
+
+
+```
+#basename 函数， 引号中是要去掉的内容
+
+
+(basename $id ".gz")
+
+
+```
