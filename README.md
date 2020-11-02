@@ -61,3 +61,10 @@ apple
 pear
 peach
 ```
+
+
+
+```
+ps -ef 
+#查看后台进程
+```
